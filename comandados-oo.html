@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Principais Comandos do PHP</title>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f5f7fa;
+    margin:40px;
+    color:#333;
+}
+
+h1{
+    text-align:center;
+    color:#2c3e50;
+    margin-bottom:40px;
+}
+
+section{
+    margin-bottom:50px;
+}
+
+h2{
+    background:#2c3e50;
+    color:white;
+    padding:12px;
+    border-radius:8px;
+}
+
+.card{
+    background:white;
+    border-left:8px solid #3498db;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.card h3{
+    margin-top:0;
+    color:#2980b9;
+}
+
+pre{
+    background:#272822;
+    color:#a6e22e;
+    padding:15px;
+    border-radius:8px;
+    overflow:auto;
+    font-size:16px;
+}
+
+p{
+    font-size:18px;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>📚 Principais Comandos e Palavras-chave do PHP</h1>
+
+<section>
+
+<h2>📄 Estrutura do Arquivo</h2>
+
+<div class="card">
+<h3>⌨️ readline()</h3>
+
+<pre><code>readline()</code></pre>
+
+<p>Lê uma entrada digitada pelo usuário no terminal.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>🖥️ Saída de Dados</h2>
+
+<div class="card">
+
+<h3>📢 echo</h3>
+
+<pre><code>echo</code></pre>
+
+<p>Exibe informações na tela.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>↩️ Retorno de Funções</h2>
+
+<div class="card">
+
+<h3>🔙 return</h3>
+
+<pre><code>return</code></pre>
+
+<p>Retorna um valor de uma função.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>🧱 Referência ao Objeto Atual</h2>
+
+<div class="card">
+
+<h3>🏷️ $this</h3>
+
+<pre><code>$this</code></pre>
+
+<p>Representa o objeto atual dentro de uma classe.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>⚖️ Estruturas de Decisão</h2>
+
+<div class="card">
+
+<h3>✅ if</h3>
+
+<pre><code>if</code></pre>
+
+<p>Executa um bloco de código caso uma condição seja verdadeira.</p>
+
+</div>
+
+<div class="card">
+
+<h3>❌ else</h3>
+
+<pre><code>else</code></pre>
+
+<p>Executa um bloco alternativo quando a condição do <strong>if</strong> é falsa.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🔀 switch</h3>
+
+<pre><code>switch</code></pre>
+
+<p>Seleciona um bloco de código entre vários casos.</p>
+
+</div>
+
+<div class="card">
+
+<h3>📌 case</h3>
+
+<pre><code>case</code></pre>
+
+<p>Representa uma opção dentro do <strong>switch</strong>.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🛑 break</h3>
+
+<pre><code>break</code></pre>
+
+<p>Interrompe um <strong>switch</strong> ou um laço de repetição.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>🔁 Estruturas de Repetição</h2>
+
+<div class="card">
+
+<h3>🔄 while</h3>
+
+<pre><code>while</code></pre>
+
+<p>Executa um bloco enquanto a condição for verdadeira.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🔂 do...while</h3>
+
+<pre><code>do {
+
+} while (condição);</code></pre>
+
+<p>Executa o bloco pelo menos uma vez.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🔢 for</h3>
+
+<pre><code>for</code></pre>
+
+<p>Executa um bloco um número determinado de vezes.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>⚙️ Funções</h2>
+
+<div class="card">
+
+<h3>🛠️ function</h3>
+
+<pre><code>function</code></pre>
+
+<p>Declara uma função.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>🏛️ Programação Orientada a Objetos</h2>
+
+<div class="card">
+
+<h3>🏗️ class</h3>
+
+<pre><code>class</code></pre>
+
+<p>Define uma classe.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌎 public</h3>
+
+<pre><code>public</code></pre>
+
+<p>Define um atributo ou método acessível de qualquer lugar.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🔒 private</h3>
+
+<pre><code>private</code></pre>
+
+<p>Define um atributo ou método acessível apenas dentro da própria classe.</p>
+
+</div>
+
+<div class="card">
+
+<h3>⚙️ public function</h3>
+
+<pre><code>public function nomeDaFuncao()
+{
+
+}</code></pre>
+
+<p>Declara um método público da classe.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>✔️ Valores Booleanos</h2>
+
+<div class="card">
+
+<h3>🟢 true</h3>
+
+<pre><code>true</code></pre>
+
+<p>Valor lógico verdadeiro.</p>
+
+</div>
+
+<div class="card">
+
+<h3>🔴 false</h3>
+
+<pre><code>false</code></pre>
+
+<p>Valor lógico falso.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>↩️ Retorno Booleano</h2>
+
+<div class="card">
+
+<h3>✅ return true;</h3>
+
+<pre><code>return true;</code></pre>
+
+<p>Retorna verdadeiro.</p>
+
+</div>
+
+<div class="card">
+
+<h3>❌ return false;</h3>
+
+<pre><code>return false;</code></pre>
+
+<p>Retorna falso.</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>📦 Outros</h2>
+
+<div class="card">
+
+<h3>📋 getDados()</h3>
+
+<pre><code>getDados()</code></pre>
+
+<p>Exemplo de método para obter informações.</p>
+
+</div>
+
+<div class="card">
+
+<h3>▶️ do</h3>
+
+<pre><code>do</code></pre>
+
+<p>Inicia uma estrutura <strong>do...while</strong>.</p>
+
+</div>
+
+</section>
+
+</body>
+</html>
